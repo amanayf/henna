@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {background-color: #F6F1F4; font-family:verdana;}
+    h2 {color:#69926A; font-family:verdana; display: inline-block}
+    p {padding: 10px; color:#899B9F; font-family:verdana; display: inline-block}
+    img {width:400px; height:530px} 
+    h3 {color:#8D899F; font-family:verdana;}
+    span {color:#69926A}
+    .dropdown {
+      display: inline-block;
+    }
+    .dropbtn {
+      background-color: #899B9F;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover {
+      background-color: #111;
+    }
+
+    li a{
+      background-color: #69926A;
+    }
+    li {
+      float: left;
+    }
+    
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+  </style>
+<title>Henna!</title>
+  <link rel="icon" type="image/x-icon" href="download.jpg">"
+</head>
+<body>
+
+  <ul>
+    <li><a href="https://cd2458fa-9b3b-4e0f-8f77-c21667d79ac6-00-zcf79kmnefz9.riker.replit.dev/">hot men!</a></li>
+    <li><a href="https://1f0463c0-5366-4193-8cf1-84b761e3691d-00-wieaw1jzsxf8.kirk.replit.dev/">Gallery</a></li>
+     <li><a href = "https://10d7af9c-ae30-40b9-ab57-b2fe463b0c7e-00-9zfhb5sp3gym.picard.replit.dev/index.html">Home</li>
+  </ul>
+<!--header henna intro!-->
+<h2 style="text-align:center;" style="color:#69926A;">What is Henna?</h2>
+<p> Henna is a natural dye derived from the leaves of the <i>henna plant </i>. It's commonly used for temporary body art, particularly in cultures across South Asia, the Middle East, and Africa, often for weddings, celebrations, or cultural traditions.</p>
+
+<!--parts of a henna artist dropdown menu -->
+  <div class="dropdown">
+    <h3>Parts of a Henna Artist</h3>
+    <div class="dropdown-content">
+      <h3>Parts of a Henna Artist </h3>
+        <p>Take a look at what's going on in my brain and hands! <br>Click on my head or my hand to interact. </p>
+      <img src = "headshot1.jpg" alt="Headshot" usemap=#headshotmap>
+        <map name="headshotmap">
+            <area shape="circle" coords="130, 300, 60" href="headshot1.jpg" onclick="myHands()">
+            <area shape="rect" coords="150, 160, 240, 230" href="headshot2.jpg" onclick="myBrain()">
+        </map>
+      
+      <script>
+      function myHands(){
+        alert("These are my hands! I use these to create beautiful designs that last 1-2 weeks! They're also often seen coding new projects.")
+      }
+        </script>
+      
+      <script>
+        function myBrain(){
+          alert("This is my brain! I use this to create my designs. Henna is a finnicky art, so I often use it to solve problems on the fly - or as some might say - debug! ") 
+      }
+      </script>
+    </div>
+  </div>
+
+  <div class="dropdown">
+  <h3>What's Chemical Henna?</h3>
+  <div class="dropdown-content">
+    <h3>What's Chemical Henna?</h3>
+      <p> Chemical henna, commonly known as "black henna," is a synthetic product that typically contains harmful additives. <br>Unlike natural henna, it produces a darker color quickly but carries significant risks like: </p>
+  <ol>
+    - allergic reactions <br>
+    - skin irritations<br>
+    - long-term health complications<br>
+    - scarring<br>
+  </ol>    
+<p>Always double-check where your henna is sourced from.</p>
+
+
+  </div>
+
+<!-- whale shark interlude
+    <button type="button" onclick="WhaleShark()">Whale Shark Button</button>
+    <div id="whaleShark"></div>
+    <script>
+      function WhaleShark() {
+        document.getElementById('whaleShark').innerHTML = '<img src="whaleshark.jpg" alt="whale shark" height="500" width="200">';
+      }
+      </script> -->
+  </div>
+</body>
+</html>
